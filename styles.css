@@ -1,0 +1,207 @@
+
+/* navbar */
+.navbar{
+    height: 80px;
+}
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem !important;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* websection1faceofwebsite */
+.mainheading{
+    font-family: 'Poppins', sans-serif;
+}
+.image{
+    padding-left: 150px;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: black;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 250px;
+    left: -60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* websection2aboutussection */
+.websection2{
+    height: 400px;
+    padding-left: 50px; 
+    font-size: 1.15rem;
+}
+.heading1{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.aboutuspara{
+    padding-right: 600px;
+}
+.aeroplane{
+    padding-right: 50px;
+    float: right;
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* websection3polaroidssection */
+.heading2{
+    padding-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.gallery {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* htmlelements */
+figure {
+    width: 350px;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 5px 5px 5px #4d4d4e;
+}
+figcaption {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* websection4servicessection */
+.websection4{
+    height: 800px;
+    padding-left: 160px; 
+    font-size: 1.15rem;
+}
+.heading3{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 440px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+.image1 {
+    opacity: 1;
+    display: block;
+    /* width: 100%; */
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+} 
+.container:hover .image1 {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    /* padding: 5px; */
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    font-family: 'Poppins', sans-serif;
+}
